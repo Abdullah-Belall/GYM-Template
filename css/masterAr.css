@@ -1,0 +1,116 @@
+* {
+  font-family: "Caveat", cursive;
+  font-family: "Dancing Script", cursive;
+  font-family: "El Messiri", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Noto Kufi Arabic", sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Almarai", sans-serif;
+  font-family: "Cairo", sans-serif;
+}
+
+:root {
+  --orange-color: #f15a00;
+  --gray-color: #626768;
+  --main-bacground-color: #131718;
+  --main-transition: 0.5s;
+  --scrol-transition: 1.5s;
+}
+
+.sec1 .landing .one {
+  left: -50px;
+  transform: rotate(-32.5deg);
+}
+
+.sec1 .landing img {
+  left: 20px;
+  bottom: 0;
+}
+
+.sec3 img {
+  width: 333px;
+}
+
+/* sm */
+@media (max-width: 575px) {
+  .sec1 .landing .one {
+    left: -158px;
+    transform: rotate(-59deg);
+    width: 529px;
+    height: 108vh;
+    top: 467px;
+  }
+  .navbar-collapse {
+    width: 100%;
+  }
+  .sec1 .navbar li a {
+    width: 144px;
+  }
+  .sec1 .navbar li a:hover,
+  .in {
+    background-color: white;
+  }
+}
+/* md */
+@media (min-width: 576px) and (max-width: 767px) {
+  .sec1 .landing .one {
+    left: -158px;
+    transform: rotate(-59deg);
+    bottom: 0px !important;
+  }
+  .navbar-nav {
+    padding-right: 368px !important;
+  }
+  .sec1 .navbar li a {
+    padding-right: 24px;
+  }
+  .sec1 .navbar li a:hover,
+  .in {
+    background-color: white;
+  }
+}
+/* lg */
+@media (min-width: 768px) and (max-width: 993px) {
+  .sec1 .landing .one {
+    left: -245px;
+    transform: rotate(-25deg);
+  }
+  .sec1 .landing img {
+    left: -56px;
+  }
+  .navbar-nav {
+    padding-right: 560px !important;
+  }
+  .sec1 .navbar li a {
+    padding-right: 24px;
+  }
+  .sec1 .navbar li a:hover,
+  .in {
+    background-color: white;
+  }
+}
+/*  */
+@media (min-width: 992px) and (max-width: 1200px) {
+  .sec1 .landing .one {
+    left: -274px;
+    transform: rotate(-24deg);
+  }
+  .sec1 .landing img {
+    left: -27px;
+    width: 507px;
+  }
+  .sec3 img {
+    width: 325px;
+  }
+}
+
+
+
+.sec3 .down,
+.sec3 .up {
+  margin-left: 0px;
+}
+
+.sec3 .con {
+  width: fit-content !important;
+}
